@@ -20,6 +20,7 @@
 - 响应式设计，适配各种设备
 - 现代化UI界面，基于Shadcn UI和Tailwind CSS
 - 使用React Server Components优化性能
+- 自带.cursorrules
 
 ## 开始使用
 

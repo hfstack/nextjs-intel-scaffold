@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# next-intel-scaffold
 
-## Getting Started
+基于nextjs的app-router的国际化项目脚手架
 
-First, run the development server:
+这是一个基于[Next.js 15](https://nextjs.org)和[React 19](https://react.dev)构建的项目，使用[`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app)引导创建。
+
+## 技术栈
+
+- **框架**: [Next.js 15](https://nextjs.org)（使用App Router）
+- **UI库**: [React 19](https://react.dev)
+- **样式**: [Tailwind CSS 4](https://tailwindcss.com)
+- **组件**: [Shadcn UI](https://ui.shadcn.com/)和[Radix UI](https://www.radix-ui.com/)
+- **类型检查**: [TypeScript](https://www.typescriptlang.org/)
+- **表单处理**: [React Hook Form](https://react-hook-form.com/)和[Zod](https://zod.dev/)
+- **国际化**: 支持多语言（目前包括英文和中文）
+
+## 主要特性
+
+- 国际化支持（英文/中文）
+- 响应式设计，适配各种设备
+- 现代化UI界面，基于Shadcn UI和Tailwind CSS
+- 使用React Server Components优化性能
+
+## 开始使用
+
+首先，安装依赖:
+
+```bash
+npm install
+# 或
+yarn install
+# 或
+pnpm install
+# 或
+bun install
+```
+
+然后，运行开发服务器:
 
 ```bash
 npm run dev
-# or
+# 或
 yarn dev
-# or
+# 或
 pnpm dev
-# or
+# 或
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+在浏览器中打开[http://localhost:3000](http://localhost:3000)查看应用。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 项目结构
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+next-intel-scaffold/
+├── src/
+│   ├── app/
+│   │   ├── [lang]/      # 国际化路由
+│   │   └── globals.css  # 全局样式
+│   ├── components/      # UI组件
+│   ├── dictionaries/    # 国际化文件
+│   └── lib/            # 工具函数和共享逻辑
+├── public/             # 静态资源
+└── ...配置文件
+```
 
-## Learn More
+## 国际化支持
 
-To learn more about Next.js, take a look at the following resources:
+本项目使用Next.js App Router的国际化方案:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 页面放置在`src/app/[lang]`目录下
+- 国际化文件放置在`src/dictionaries`目录下
+- 支持语言: 英文(en)和中文(zh)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 部署
 
-## Deploy on Vercel
+推荐使用[Vercel平台](https://vercel.com/new)部署此Next.js应用，这是Next.js创建者提供的平台。
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+更多部署详情，请查看[Next.js部署文档](https://nextjs.org/docs/app/building-your-application/deploying)。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 了解更多
+
+要了解更多关于Next.js的信息，请查看以下资源:
+
+- [Next.js文档](https://nextjs.org/docs) - 了解Next.js的特性和API
+- [Learn Next.js](https://nextjs.org/learn) - 一个交互式Next.js教程
+
+欢迎查看[Next.js GitHub仓库](https://github.com/vercel/next.js)并提供反馈和贡献!

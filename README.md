@@ -1,6 +1,6 @@
 # next-intel-scaffold
 
-基于nextjs的app-router的国际化项目脚手架
+基于 Next.js 15 的国际化项目脚手架
 
 这是一个基于[Next.js 15](https://nextjs.org)和[React 19](https://react.dev)构建的项目，使用[`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app)引导创建。
 
@@ -22,33 +22,45 @@
 - 使用React Server Components优化性能
 - 自带.cursorrules
 
-## 开始使用
+## 如何使用脚手架
 
-首先，安装依赖:
+### 方法一：直接克隆
 
 ```bash
+# 克隆仓库
+git clone https://github.com/yourusername/next-intel-scaffold.git your-project-name
+
+# 进入项目目录
+cd your-project-name
+
+# 删除 .git 目录（重新初始化 git 仓库）
+rm -rf .git
+git init
+
+# 安装依赖
 npm install
-# 或
-yarn install
-# 或
-pnpm install
-# 或
-bun install
+
+# 启动开发服务器
+npm run dev
 ```
 
-然后，运行开发服务器:
+### 方法二：使用内置脚本
 
 ```bash
-npm run dev
-# 或
-yarn dev
-# 或
-pnpm dev
-# 或
-bun dev
+# 克隆仓库
+git clone https://github.com/yourusername/next-intel-scaffold.git
+
+# 进入项目目录
+cd next-intel-scaffold
+
+# 安装依赖
+npm install
+
+# 运行创建项目脚本
+npm run create-project
 ```
 
-在浏览器中打开[http://localhost:3000](http://localhost:3000)查看应用。
+脚本会提示你输入新项目的名称、描述和作者信息，然后自动在父目录创建一个新的项目。
 
 ## 项目结构
 
@@ -72,6 +84,13 @@ next-intel-scaffold/
 - 页面放置在`src/app/[lang]`目录下
 - 国际化文件放置在`src/dictionaries`目录下
 - 支持语言: 英文(en)和中文(zh)
+
+## 自定义你的项目
+
+1. 修改 `package.json` 中的项目信息
+2. 更新 `src/dictionaries` 中的国际化文本
+3. 根据需要添加或修改 Shadcn UI 组件
+4. 开始构建你的应用功能！
 
 ## 部署
 

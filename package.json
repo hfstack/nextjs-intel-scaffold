@@ -1,12 +1,14 @@
 {
-  "name": "md2poster",
-  "version": "0.1.0",
+  "name": "next-intel-scaffold",
+  "version": "1.0.0",
+  "description": "基于 Next.js 15 和 React 19 的国际化项目脚手架",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "create-project": "node scripts/create-project.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",

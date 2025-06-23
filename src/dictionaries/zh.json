@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "siteTitle": "MD2Poster",
+    "siteDescription": "一个将 Markdown 转换为精美海报的工具",
+    "keywords": "markdown, 海报, 转换器, 设计工具"
+  },
+  "index": {
+    "title": "MD2Poster",
+    "description": "将 Markdown 转换为海报",
+    "getStarted": "开始使用"
+  },
+  "navigation": {
+    "home": "首页",
+    "about": "关于"
+  }
+} 

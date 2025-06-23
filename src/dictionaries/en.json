@@ -1,0 +1,16 @@
+{
+  "metadata": {
+    "siteTitle": "MD2Poster",
+    "siteDescription": "A tool to convert Markdown into beautiful posters",
+    "keywords": "markdown, poster, converter, design tool"
+  },
+  "index": {
+    "title": "MD2Poster",
+    "description": "Convert Markdown to Poster",
+    "getStarted": "Get Started"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  }
+} 

@@ -1,7 +1,10 @@
 {
-  "name": "@hfstack/next-intel-scaffold",
+  "name": "nextjs-intel-scaffold",
   "version": "1.1.0",
   "description": "基于 Next.js 15 和 React 19 的国际化项目脚手架",
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yourusername/nextjs-intel-scaffold.git"
@@ -18,7 +21,7 @@
     "scaffold",
     "template"
   ],
-  "author": "Your Name <your.email@example.com>",
+  "author": "huanglongfei <yzhonggongsm@126.com>",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",

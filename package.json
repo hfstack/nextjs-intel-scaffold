@@ -1,5 +1,5 @@
 {
-  "name": "next-intel-scaffold",
+  "name": "@hfstack/next-intel-scaffold",
   "version": "1.1.0",
   "description": "基于 Next.js 15 和 React 19 的国际化项目脚手架",
   "repository": {

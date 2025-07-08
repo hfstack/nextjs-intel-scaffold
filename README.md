@@ -28,7 +28,7 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/next-intel-scaffold.git your-project-name
+git clone https://github.com/hfstack/nextjs-intel-scaffold.git your-project-name
 
 # 进入项目目录
 cd your-project-name
@@ -48,7 +48,7 @@ npm run dev
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/next-intel-scaffold.git
+git clone https://github.com/hfstack/nextjs-intel-scaffold.git
 
 # 进入项目目录
 cd next-intel-scaffold

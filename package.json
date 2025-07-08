@@ -1,14 +1,32 @@
 {
   "name": "next-intel-scaffold",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "基于 Next.js 15 和 React 19 的国际化项目脚手架",
-  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/nextjs-intel-scaffold.git"
+  },
+  "homepage": "https://github.com/yourusername/nextjs-intel-scaffold",
+  "bugs": {
+    "url": "https://github.com/yourusername/nextjs-intel-scaffold/issues"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "i18n",
+    "scaffold",
+    "template"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "create-project": "node scripts/create-project.js"
+    "create-project": "node scripts/create-project.js",
+    "prepublishOnly": "npm run build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.1.1",
